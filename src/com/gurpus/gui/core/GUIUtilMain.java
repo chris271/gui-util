@@ -18,7 +18,7 @@ public class GUIUtilMain {
     public static void main(String[] args) {
         try {
             //Attempts to create a Thread which opens a JFrame window and add a graphical panel component.
-            Logger.info("Wage Index Application Started.");
+            Logger.info("GUIUtil Application Started.");
             Logger.info("Opening GUI...");
             SwingUtilities.invokeLater(() -> {
 

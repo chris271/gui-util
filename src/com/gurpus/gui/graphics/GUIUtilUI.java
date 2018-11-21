@@ -202,7 +202,7 @@ public class GUIUtilUI extends JPanel{
                 0,
                 (int)(45 * aspectXRatio),
                 (int)((currentHeight * 3 / 4) * aspectYRatio));
-        g2d.setColor(Color.RED);
+        g2d.setColor(Color.CYAN);
         g2d.fillRoundRect((int)(currentWidth - 100 * aspectXRatio),
                 (int)(currentHeight / 3 + uiMouseAdapter.getScrollAmount() / 8 * aspectYRatio),
                 (int)(25 * aspectXRatio),
